@@ -267,7 +267,7 @@ body {
 
 /* Services Section */
 .services {
-    padding: 100px 40px;
+    padding: 0px 40px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
@@ -276,6 +276,9 @@ body {
 
     margin: 0 auto;
     position: relative;
+
+    padding-top: 40px;
+    padding-bottom: 100px;
     
 }
 
@@ -450,8 +453,10 @@ body {
 @media (max-width: 1024px) {
     .services {
         grid-template-columns: repeat(2, 1fr);
-        padding: 80px 30px;
+        padding: 0px 30px;
         gap: 25px;
+        padding-bottom: 80px;
+        padding-top: 40px;
     }
 
     .hero-content h1 {
