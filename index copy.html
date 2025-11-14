@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Panel Services</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="ico/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="ico/apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <img src="images/solars_3.png" alt="SolarS Logo" class="logo-img" width="100px">
+            <span class="logo-text">logo</span>
+        </div>
+        <button class="hamburger" aria-label="Меню" aria-expanded="false">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+    </header>
+
+    <!-- Hero Section з слайдером -->
+    <section class="hero">
+        <!-- Слайдер (фон) -->
+        <div class="slider">
+            <div class="slide active">
+                <img src="images/solar_panel_1.jpg" alt="Сонячні панелі 1" loading="lazy">
+            </div>
+            <div class="slide">
+                <img src="images/solar_panel_2.avif" alt="Сонячні панелі 2" loading="lazy">
+            </div>
+            <div class="slide">
+                <img src="images/solar_panel_3.jpg" alt="Сонячні панелі 3" loading="lazy">
+            </div>
+
+            <button class="prev" aria-label="Попереднє">Previous</button>
+            <button class="next" aria-label="Наступне">Next</button>
+
+            <div class="dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </div>
+
+        <!-- Текст поверх -->
+        <div class="hero-content">
+            <h1>How is solar panel work?</h1>
+            <p>Simple Text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id suscipit ex.
+                Suspendisse rhoncus laoreet purus quis elementum.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="service-card">
+            <img src="inverter-icon.svg" alt="Іконка інвертора">
+            <h3>Inverter inspection</h3>
+        </div>
+        <div class="service-card">
+            <img src="diagnostics-icon.svg" alt="Іконка діагностики">
+            <h3>Complete Diagnostics</h3>
+        </div>
+        <div class="service-card">
+            <img src="repair-icon.svg" alt="Іконка ремонту">
+            <h3>Expert Solar Panel Repair</h3>
+        </div>
+        <div class="service-card">
+            <img src="monitoring-icon.svg" alt="Іконка моніторингу">
+            <h3>Updates &amp; Monitoring</h3>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Sample text. Click to select the Text Element.</p>
+    </footer>
+
+    <!-- Підключення JS в кінці body -->
+    <script src="js/slider.js"></script>
+</body>
+
+</html>
